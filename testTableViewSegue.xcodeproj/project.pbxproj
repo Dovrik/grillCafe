@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0407922E1F2DF47F004D6AD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407922D1F2DF47F004D6AD2 /* AppDelegate.swift */; };
+		040792331F2DF47F004D6AD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040792311F2DF47F004D6AD2 /* Main.storyboard */; };
+		040792351F2DF47F004D6AD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 040792341F2DF47F004D6AD2 /* Assets.xcassets */; };
+		040792381F2DF47F004D6AD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 040792361F2DF47F004D6AD2 /* LaunchScreen.storyboard */; };
+		040792401F2DF4C0004D6AD2 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407923F1F2DF4C0004D6AD2 /* TableViewController.swift */; };
+		040792441F2DF4DD004D6AD2 /* FoodManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040792431F2DF4DD004D6AD2 /* FoodManager.swift */; };
+		040792461F2DFDEB004D6AD2 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040792451F2DFDEB004D6AD2 /* CollectionViewController.swift */; };
+		040792481F2DFE40004D6AD2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040792471F2DFE40004D6AD2 /* CollectionViewCell.swift */; };
+		0407924A1F2E0219004D6AD2 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 040792491F2E0219004D6AD2 /* TableViewCell.swift */; };
+		0407924E1F2E430E004D6AD2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407924D1F2E430E004D6AD2 /* MapViewController.swift */; };
+		040792501F2E468B004D6AD2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0407924F1F2E468B004D6AD2 /* DetailViewController.swift */; };
+		041F64851F419511007723B0 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 041F64841F419511007723B0 /* SWRevealViewController.m */; };
+		041F64881F41958F007723B0 /* SWRevealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F64871F41958F007723B0 /* SWRevealTableViewController.swift */; };
+		041F64A01F41C087007723B0 /* GeneralTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F649F1F41C087007723B0 /* GeneralTableViewController.swift */; };
+		041F64A21F41C098007723B0 /* GeneralTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F64A11F41C098007723B0 /* GeneralTableViewCell.swift */; };
+		041F64A51F41EE6B007723B0 /* RevealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F64A41F41EE6B007723B0 /* RevealTableViewCell.swift */; };
+		041F64A71F4219FB007723B0 /* VKWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 041F64A61F4219FB007723B0 /* VKWebViewController.swift */; };
+		047BE60B1F39A204003060F5 /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE60A1F39A204003060F5 /* AboutTableViewController.swift */; };
+		047BE60D1F39ACE1003060F5 /* InstagramWebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047BE60C1F39ACE1003060F5 /* InstagramWebViewController.swift */; };
+		04BF3F851F32D0DE00CB29E9 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04BF3F841F32D0DE00CB29E9 /* MapKit.framework */; };
+		04D89B1E1F34FD3F003ABE0D /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D89B1D1F34FD3F003ABE0D /* SearchTableViewController.swift */; };
+		04D89B201F34FD4B003ABE0D /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04D89B1F1F34FD4B003ABE0D /* SearchTableViewCell.swift */; };
+		04E36E391F31F19900EF0932 /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E381F31F19900EF0932 /* CurrentWeather.swift */; };
+		04E36E3B1F31F23700EF0932 /* WeatherIconManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E3A1F31F23700EF0932 /* WeatherIconManager.swift */; };
+		04E36E3D1F31FFC600EF0932 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E3C1F31FFC600EF0932 /* APIManager.swift */; };
+		04E36E3F1F3203C900EF0932 /* ErrorManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E3E1F3203C900EF0932 /* ErrorManager.swift */; };
+		04E36E431F320ADA00EF0932 /* APIWeatherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E421F320ADA00EF0932 /* APIWeatherManager.swift */; };
+		04E36E451F323AB500EF0932 /* ParticlesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E441F323AB500EF0932 /* ParticlesView.swift */; };
+		04E36E471F323B5900EF0932 /* ParticleScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 04E36E461F323B5900EF0932 /* ParticleScene.sks */; };
+		04E36E491F324B3B00EF0932 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E36E481F324B3B00EF0932 /* ViewController.swift */; };
+		04ED309D1F45B2A2004870B1 /* ReceptJamesOliverTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED309C1F45B2A2004870B1 /* ReceptJamesOliverTableViewController.swift */; };
+		04ED309F1F45B2BC004870B1 /* ReceptJamesOliverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ED309E1F45B2BC004870B1 /* ReceptJamesOliverTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0407922A1F2DF47F004D6AD2 /* testTableViewSegue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = testTableViewSegue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0407922D1F2DF47F004D6AD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		040792321F2DF47F004D6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		040792341F2DF47F004D6AD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		040792371F2DF47F004D6AD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		040792391F2DF47F004D6AD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0407923F1F2DF4C0004D6AD2 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		040792431F2DF4DD004D6AD2 /* FoodManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodManager.swift; sourceTree = "<group>"; };
+		040792451F2DFDEB004D6AD2 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		040792471F2DFE40004D6AD2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		040792491F2E0219004D6AD2 /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
+		0407924D1F2E430E004D6AD2 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		0407924F1F2E468B004D6AD2 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		041F64821F419511007723B0 /* testTableViewSegue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "testTableViewSegue-Bridging-Header.h"; sourceTree = "<group>"; };
+		041F64831F419511007723B0 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		041F64841F419511007723B0 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		041F64871F41958F007723B0 /* SWRevealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SWRevealTableViewController.swift; sourceTree = "<group>"; };
+		041F649F1F41C087007723B0 /* GeneralTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralTableViewController.swift; path = ../GeneralTableViewController.swift; sourceTree = "<group>"; };
+		041F64A11F41C098007723B0 /* GeneralTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GeneralTableViewCell.swift; path = ../GeneralTableViewCell.swift; sourceTree = "<group>"; };
+		041F64A41F41EE6B007723B0 /* RevealTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RevealTableViewCell.swift; sourceTree = "<group>"; };
+		041F64A61F4219FB007723B0 /* VKWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VKWebViewController.swift; sourceTree = "<group>"; };
+		047BE60A1F39A204003060F5 /* AboutTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AboutTableViewController.swift; path = ../AboutTableViewController.swift; sourceTree = "<group>"; };
+		047BE60C1F39ACE1003060F5 /* InstagramWebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstagramWebViewController.swift; sourceTree = "<group>"; };
+		04BF3F841F32D0DE00CB29E9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04D89B1D1F34FD3F003ABE0D /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		04D89B1F1F34FD4B003ABE0D /* SearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		04E36E381F31F19900EF0932 /* CurrentWeather.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
+		04E36E3A1F31F23700EF0932 /* WeatherIconManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeatherIconManager.swift; sourceTree = "<group>"; };
+		04E36E3C1F31FFC600EF0932 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		04E36E3E1F3203C900EF0932 /* ErrorManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorManager.swift; sourceTree = "<group>"; };
+		04E36E421F320ADA00EF0932 /* APIWeatherManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIWeatherManager.swift; sourceTree = "<group>"; };
+		04E36E441F323AB500EF0932 /* ParticlesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParticlesView.swift; sourceTree = "<group>"; };
+		04E36E461F323B5900EF0932 /* ParticleScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ParticleScene.sks; sourceTree = "<group>"; };
+		04E36E481F324B3B00EF0932 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		04ED309C1F45B2A2004870B1 /* ReceptJamesOliverTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceptJamesOliverTableViewController.swift; sourceTree = "<group>"; };
+		04ED309E1F45B2BC004870B1 /* ReceptJamesOliverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReceptJamesOliverTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		040792271F2DF47F004D6AD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04BF3F851F32D0DE00CB29E9 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		040792211F2DF47F004D6AD2 = {
+			isa = PBXGroup;
+			children = (
+				0407922C1F2DF47F004D6AD2 /* testTableViewSegue */,
+				0407922B1F2DF47F004D6AD2 /* Products */,
+				04BF3F831F32D0DE00CB29E9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0407922B1F2DF47F004D6AD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0407922A1F2DF47F004D6AD2 /* testTableViewSegue.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0407922C1F2DF47F004D6AD2 /* testTableViewSegue */ = {
+			isa = PBXGroup;
+			children = (
+				040792431F2DF4DD004D6AD2 /* FoodManager.swift */,
+				0407922D1F2DF47F004D6AD2 /* AppDelegate.swift */,
+				04E36E441F323AB500EF0932 /* ParticlesView.swift */,
+				04E36E461F323B5900EF0932 /* ParticleScene.sks */,
+				04E36E481F324B3B00EF0932 /* ViewController.swift */,
+				04E36E401F3203DC00EF0932 /* WeatherModal */,
+				04E36E411F320A3C00EF0932 /* API and ERROR Weather */,
+				04D89B211F34FD51003ABE0D /* Search */,
+				041F64A31F41C09F007723B0 /* General */,
+				04D89B221F34FD6F003ABE0D /* TableView */,
+				04D89B231F34FD7B003ABE0D /* CollectionView */,
+				041F64861F41951A007723B0 /* SWRevealViewController */,
+				04ED30A01F45B2C2004870B1 /* JamesOliver */,
+				047BE60C1F39ACE1003060F5 /* InstagramWebViewController.swift */,
+				041F64A61F4219FB007723B0 /* VKWebViewController.swift */,
+				0407924D1F2E430E004D6AD2 /* MapViewController.swift */,
+				0407924F1F2E468B004D6AD2 /* DetailViewController.swift */,
+				047BE60A1F39A204003060F5 /* AboutTableViewController.swift */,
+				040792311F2DF47F004D6AD2 /* Main.storyboard */,
+				040792341F2DF47F004D6AD2 /* Assets.xcassets */,
+				040792361F2DF47F004D6AD2 /* LaunchScreen.storyboard */,
+				040792391F2DF47F004D6AD2 /* Info.plist */,
+			);
+			path = testTableViewSegue;
+			sourceTree = "<group>";
+		};
+		041F64861F41951A007723B0 /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				041F64871F41958F007723B0 /* SWRevealTableViewController.swift */,
+				041F64A41F41EE6B007723B0 /* RevealTableViewCell.swift */,
+				041F64831F419511007723B0 /* SWRevealViewController.h */,
+				041F64841F419511007723B0 /* SWRevealViewController.m */,
+				041F64821F419511007723B0 /* testTableViewSegue-Bridging-Header.h */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		041F64A31F41C09F007723B0 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				041F649F1F41C087007723B0 /* GeneralTableViewController.swift */,
+				041F64A11F41C098007723B0 /* GeneralTableViewCell.swift */,
+			);
+			name = General;
+			sourceTree = "<group>";
+		};
+		04BF3F831F32D0DE00CB29E9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04BF3F841F32D0DE00CB29E9 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		04D89B211F34FD51003ABE0D /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				04D89B1D1F34FD3F003ABE0D /* SearchTableViewController.swift */,
+				04D89B1F1F34FD4B003ABE0D /* SearchTableViewCell.swift */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		04D89B221F34FD6F003ABE0D /* TableView */ = {
+			isa = PBXGroup;
+			children = (
+				0407923F1F2DF4C0004D6AD2 /* TableViewController.swift */,
+				040792491F2E0219004D6AD2 /* TableViewCell.swift */,
+			);
+			name = TableView;
+			sourceTree = "<group>";
+		};
+		04D89B231F34FD7B003ABE0D /* CollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				040792451F2DFDEB004D6AD2 /* CollectionViewController.swift */,
+				040792471F2DFE40004D6AD2 /* CollectionViewCell.swift */,
+			);
+			name = CollectionView;
+			sourceTree = "<group>";
+		};
+		04E36E401F3203DC00EF0932 /* WeatherModal */ = {
+			isa = PBXGroup;
+			children = (
+				04E36E3A1F31F23700EF0932 /* WeatherIconManager.swift */,
+				04E36E381F31F19900EF0932 /* CurrentWeather.swift */,
+			);
+			name = WeatherModal;
+			sourceTree = "<group>";
+		};
+		04E36E411F320A3C00EF0932 /* API and ERROR Weather */ = {
+			isa = PBXGroup;
+			children = (
+				04E36E3C1F31FFC600EF0932 /* APIManager.swift */,
+				04E36E421F320ADA00EF0932 /* APIWeatherManager.swift */,
+				04E36E3E1F3203C900EF0932 /* ErrorManager.swift */,
+			);
+			name = "API and ERROR Weather";
+			sourceTree = "<group>";
+		};
+		04ED30A01F45B2C2004870B1 /* JamesOliver */ = {
+			isa = PBXGroup;
+			children = (
+				04ED309C1F45B2A2004870B1 /* ReceptJamesOliverTableViewController.swift */,
+				04ED309E1F45B2BC004870B1 /* ReceptJamesOliverTableViewCell.swift */,
+			);
+			name = JamesOliver;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		040792291F2DF47F004D6AD2 /* testTableViewSegue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0407923C1F2DF47F004D6AD2 /* Build configuration list for PBXNativeTarget "testTableViewSegue" */;
+			buildPhases = (
+				040792261F2DF47F004D6AD2 /* Sources */,
+				040792271F2DF47F004D6AD2 /* Frameworks */,
+				040792281F2DF47F004D6AD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = testTableViewSegue;
+			productName = testTableViewSegue;
+			productReference = 0407922A1F2DF47F004D6AD2 /* testTableViewSegue.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		040792221F2DF47F004D6AD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dovran Reyimov";
+				TargetAttributes = {
+					040792291F2DF47F004D6AD2 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M464Z24599;
+						LastSwiftMigration = 0820;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 040792251F2DF47F004D6AD2 /* Build configuration list for PBXProject "testTableViewSegue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 040792211F2DF47F004D6AD2;
+			productRefGroup = 0407922B1F2DF47F004D6AD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				040792291F2DF47F004D6AD2 /* testTableViewSegue */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		040792281F2DF47F004D6AD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				040792381F2DF47F004D6AD2 /* LaunchScreen.storyboard in Resources */,
+				040792351F2DF47F004D6AD2 /* Assets.xcassets in Resources */,
+				04E36E471F323B5900EF0932 /* ParticleScene.sks in Resources */,
+				040792331F2DF47F004D6AD2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		040792261F2DF47F004D6AD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				047BE60D1F39ACE1003060F5 /* InstagramWebViewController.swift in Sources */,
+				04E36E491F324B3B00EF0932 /* ViewController.swift in Sources */,
+				040792401F2DF4C0004D6AD2 /* TableViewController.swift in Sources */,
+				041F64A21F41C098007723B0 /* GeneralTableViewCell.swift in Sources */,
+				040792441F2DF4DD004D6AD2 /* FoodManager.swift in Sources */,
+				04E36E451F323AB500EF0932 /* ParticlesView.swift in Sources */,
+				041F64A51F41EE6B007723B0 /* RevealTableViewCell.swift in Sources */,
+				040792481F2DFE40004D6AD2 /* CollectionViewCell.swift in Sources */,
+				041F64A71F4219FB007723B0 /* VKWebViewController.swift in Sources */,
+				0407924A1F2E0219004D6AD2 /* TableViewCell.swift in Sources */,
+				04ED309D1F45B2A2004870B1 /* ReceptJamesOliverTableViewController.swift in Sources */,
+				041F64851F419511007723B0 /* SWRevealViewController.m in Sources */,
+				04E36E3D1F31FFC600EF0932 /* APIManager.swift in Sources */,
+				04D89B1E1F34FD3F003ABE0D /* SearchTableViewController.swift in Sources */,
+				04E36E391F31F19900EF0932 /* CurrentWeather.swift in Sources */,
+				04E36E3F1F3203C900EF0932 /* ErrorManager.swift in Sources */,
+				0407922E1F2DF47F004D6AD2 /* AppDelegate.swift in Sources */,
+				04D89B201F34FD4B003ABE0D /* SearchTableViewCell.swift in Sources */,
+				040792461F2DFDEB004D6AD2 /* CollectionViewController.swift in Sources */,
+				04E36E431F320ADA00EF0932 /* APIWeatherManager.swift in Sources */,
+				04ED309F1F45B2BC004870B1 /* ReceptJamesOliverTableViewCell.swift in Sources */,
+				041F64A01F41C087007723B0 /* GeneralTableViewController.swift in Sources */,
+				04E36E3B1F31F23700EF0932 /* WeatherIconManager.swift in Sources */,
+				041F64881F41958F007723B0 /* SWRevealTableViewController.swift in Sources */,
+				0407924E1F2E430E004D6AD2 /* MapViewController.swift in Sources */,
+				040792501F2E468B004D6AD2 /* DetailViewController.swift in Sources */,
+				047BE60B1F39A204003060F5 /* AboutTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		040792311F2DF47F004D6AD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040792321F2DF47F004D6AD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		040792361F2DF47F004D6AD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				040792371F2DF47F004D6AD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0407923A1F2DF47F004D6AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0407923B1F2DF47F004D6AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0407923D1F2DF47F004D6AD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M464Z24599;
+				INFOPLIST_FILE = testTableViewSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DovaDev.testTableViewSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testTableViewSegue/testTableViewSegue-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		0407923E1F2DF47F004D6AD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = M464Z24599;
+				INFOPLIST_FILE = testTableViewSegue/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = DovaDev.testTableViewSegue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "testTableViewSegue/testTableViewSegue-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		040792251F2DF47F004D6AD2 /* Build configuration list for PBXProject "testTableViewSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0407923A1F2DF47F004D6AD2 /* Debug */,
+				0407923B1F2DF47F004D6AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0407923C1F2DF47F004D6AD2 /* Build configuration list for PBXNativeTarget "testTableViewSegue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0407923D1F2DF47F004D6AD2 /* Debug */,
+				0407923E1F2DF47F004D6AD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 040792221F2DF47F004D6AD2 /* Project object */;
+}
